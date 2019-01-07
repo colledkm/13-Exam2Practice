@@ -1,4 +1,4 @@
-Here is one way to solve the problem.
+Here is one way to solve the problem .
 
 Unless this  READ_ME  makes it very clear how to modify your existing
 code to be a correct solution, replace your code by copy-pasting
