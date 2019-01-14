@@ -371,7 +371,7 @@ class Box(object):
         What comes in:
           -- self
           -- Another Box
-        What goes out: Nothing (i.e., None).
+        What goes out: Nothing (i.e., None) .
         Side effects:
           -- 1. Sets this Box's contents to what is was, but with the
                   other Box's contents appended to this Box's contents
