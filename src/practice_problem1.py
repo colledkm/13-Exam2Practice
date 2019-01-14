@@ -104,13 +104,15 @@ class Box(object):
         #    TIME ESTIMATE:   5 minutes.
         # ---------------------------------------------------------------------
         self.original_volume = volume
-        self.original_contents = contents
         self.volume = volume
         self.h = []
         if len(contents) > volume:
             self.contents = ''
+            self.original_contents = ''
         else:
             self.contents = contents
+            self.original_contents = contents
+
 
 
     def append_string(self, additional_contents):
@@ -352,7 +354,7 @@ class Box(object):
           when this Box was constructed.
         """
         # ---------------------------------------------------------------------
-        # TODO: 7. Implement and test this function.
+        # Done: 7. Implement and test this function.
         #     The testing code is already written for you (above).
         # ---------------------------------------------------------------------
         # ---------------------------------------------------------------------
