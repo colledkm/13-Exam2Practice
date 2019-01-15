@@ -31,7 +31,6 @@ import time
 import math
 import rosegraphics as rg
 
-
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_practice_problem3a()
@@ -764,7 +763,7 @@ def practice_problem3e(sequence):
       :type sequence: list(float)    or tuple(float)
     """
     # -------------------------------------------------------------------------
-    # TODO: 7. Implement and test this function.
+    # Done: 7. Implement and test this function.
     #     The testing code is already written for you (above).
     ###########################################################################
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
@@ -822,3 +821,4 @@ except Exception:
     print()
     time.sleep(1)
     raise
+
